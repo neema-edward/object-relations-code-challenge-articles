@@ -1,5 +1,4 @@
-# lib/models/magazine.py
-from lib.db.connection import get_connection
+from lib.db.connection import get_connection # type: ignore
 
 class Magazine:
     def __init__(self, name, category, id=None):
