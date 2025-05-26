@@ -1,4 +1,4 @@
-from lib.db.connection import get_connection
+from lib.db.connection import get_connection # type: ignore
 
 def seed():
     db = get_connection()
